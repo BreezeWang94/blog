@@ -1,0 +1,28 @@
+# Site settings
+name: Breeze BLog
+email: 849569866@qq.com
+author: Breeze Wang
+baseurl: "/blog"
+# 个人网站
+# url: http://www.hifreud.com
+# 个人简历网站
+# resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/BreezeWang94/
+github_username: BreezeWang94
+
+# description: Actually, less is more!
+meta_description: 个人博客
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+# Build settings
+markdown: kramdown
+
+# baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
